@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+    <div class="container">
+      <div class="left">
+          <label for="bill">Bill</label>
+          <div class="input-cont">
+            <input type="text" placeholder="" id="bill">
+            <img src="images/icon-dollar.svg">
+          </div>
+
+          <div class="down">
+            <div class="first">
+              Select Tip %
+            </div>
+            <div class="second">
+              <button class="percent" id="percent-5">5%</button>
+              <button class="percent"  id="percent-10">10%</button>
+              <button class="percent"  id="percent-15">15%</button>
+              <button class="percent"  id="percent-25">25%</button>
+              <button class="percent"  id="percent-50">50%</button>
+              <input class="percent1" type="text"  id="percent-custom" placeholder="Custom">
+
+            </div>
+          </div>
+          
+          
+         
+        <div class="people">
+          <label for="people"> Number of People</label>
+          <div class="input-people">
+            <input type="text" placeholder="" id="people">
+            <img src="images/icon-person.svg">
+          </div>
+        </div>
+         
+
+        </div>
+      <div class="right">
+
+        <div class="tipamount">
+          <div class="tipamt">
+            Tip Amount
+            <div class="spaned">/ person</div>
+          </div>
+          <div class="amt" id="jsamt">$0.00</div>
+        </div>
+        
+      
+        
+        
+        <div class="totalamount">
+          <div class="totalperson">
+            Total
+            <div class="spaned">/ person</div>
+          </div>
+          <div class="totalamt" id="jstotalamt">$0.00</div>
+        </div>
+        
+       
+        
+        <button class="reset" id="reset">RESET</button>
+       
+      
+        
+      </div>
+      
+     
+    </div>
+  
+  
+  
+  
+</body>
+</html>
